@@ -1,0 +1,48 @@
+html{
+  height: 100%;
+}
+body{
+  background: #222;
+  color: white;
+  margin: 0;
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+.wrapper{
+  margin: 0 auto;
+  width: 980px;
+}
+#sidebar{
+  width: 30%;
+  background: #e8e8e8;
+  color: black;
+  display: table-cell;
+}
+.main-logo{
+  background: transparent url('../img/logos.png') no-repeat;
+  height: 135px;
+  width: 135px;
+  /* border: 1px solid black; */
+  margin: 40px 40px 40px 0;
+  /* padding: 12px; */
+  /* box-sizing: border-box; */
+}
+#main-container{
+  width: 68%;
+  display: table-cell;
+}
+.sidebar-container{
+  float:right;
+}
+/* buttons */
+.btn-twitter, .btn-rss{
+  background: transparent url('../img/fancy-links.png') no-repeat;
+  width: 42px;
+  height: 40px;
+  display:block;
+}
+
+.btn-rss{
+  background-position: 10px 10px;
+}
