@@ -1,0 +1,71 @@
+// css 
+#mypinche{
+  background-position: 0 -22px;
+  left: -11px;
+}
+#mypinche .welcome {
+  background-position: 0 -22px;
+  left: -11px;
+  background-position: 0 -22px;
+  left: -11px;
+}
+#mypinche .welcome strong {
+  color: yellow;
+}
+
+// scss
+#mypinche{
+  background-position: 0 -22px;
+  left: -11px;
+  .welcome{
+    background-position: 0 -22px;
+    left: -11px;
+    background-position: 0 -22px;
+    left: -11px;
+    strong{
+      color: yellow;
+    }
+    button{
+      background: red;
+      &:hover{
+        background: white;
+      }
+    }
+  }
+}
+
+
+// sass
+#mypinche
+  background-position: 0 -22px
+  left: -11px
+  .welcome
+    background-position: 0 -22px
+    left: -11px
+    background-position: 0 -22px
+    left: -11px
+    .bien
+      color: blue
+      .mal
+        masdo
+      .mal .mas-culero
+        kjasidji
+    strong
+      color: yellow
+    button
+      background: red
+      &:hover
+        background: white
+
+.btn
+  background: blue
+  border: none
+  font-size: 14px
+  &.close
+    background: red
+
+.btn-close
+  @extend .btn
+  background: red
+
+
